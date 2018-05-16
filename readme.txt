@@ -12,3 +12,6 @@ git checkout -- xx.txt
 
 git rm xx.txt
 删除暂存区的文件
+
+git push origin master
+把本地master分支推送至远程GITHUB
