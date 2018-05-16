@@ -9,3 +9,6 @@ git reset --hard [commit id]
 
 git checkout -- xx.txt
 取当前分支最新的版本，清除工作区的修改。如果暂存区为空，则可以清空。若暂存区有等待提交的文件则可以执行 git reset HEAD xx.tx将暂存区清空，然后再执行以上命令清除工作区。
+
+git rm xx.txt
+删除暂存区的文件
